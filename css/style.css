@@ -1,0 +1,859 @@
+body {
+	font-family: 'Joystix Monospace';
+	color: white;
+	background: #242424;
+	font-size: 14px;
+}
+
+#map {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1403px;
+	height: 1284px;
+	background: url(../images/FullMap.png);
+	background-repeat: no-repeat;
+}
+
+#area1 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area2 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area3 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area4 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area5 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area6 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area7 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area8 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+#area9 {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	width: 1403px;
+	height: 1284px;
+}
+
+img {
+	width: 16px;
+	height: 16px;
+}
+
+#start {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 8) + 4px);
+}
+
+/* ERIBU ITEMS */
+#DataDisruptor {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 6) + 4px);
+}
+
+#Nova {
+	position: absolute;
+	top: calc((20px * 35) + 4px);
+	left: calc((20px * 16) + 4px);
+}
+
+#SizeNode1 {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 8) + 4px);
+}
+
+#Drill {
+	position: absolute;
+	top: calc((20px * 40) + 4px);
+	left: calc((20px * 16) + 4px);
+}
+
+#PowerNode1 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 14) + 4px);
+}
+
+#MultiDisruptor {
+	position: absolute;
+	top: calc((20px * 36) + 4px);
+	left: calc((20px * 9) + 4px);
+}
+
+#HealthNode1 {
+	position: absolute;
+	top: calc((20px * 49) + 4px);
+	left: calc((20px * 15) + 4px);
+}
+
+#HealthNodeFragment2 {
+	position: absolute;
+	top: calc((20px * 48) + 4px);
+	left: calc((20px * 12) + 4px);
+}
+
+#HealthNodeFragment13 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 2) + 4px);
+}
+
+#PowerNodeFragment16 {
+	position: absolute;
+	top: calc((20px * 47) + 4px);
+	left: calc((20px * 15) + 4px);
+}
+
+#HealthNode9 {
+	position: absolute;
+	top: calc((20px * 33) + 4px);
+	left: calc((20px * 14) + 4px);
+}
+
+#LightningGun {
+	position: absolute;
+	top: calc((20px * 44) + 4px);
+	left: calc((20px * 10) + 4px);
+}
+
+#Note2 {
+	position: absolute;
+	top: calc((20px * 40) + 4px);
+	left: calc((20px * 8) + 4px);
+}
+
+#WallTrace {
+	position: absolute;
+	top: calc((20px * 46) + 4px);
+	left: calc((20px * 11) + 4px);
+}
+
+#PowerNodeFragment2 {
+	position: absolute;
+	top: calc((20px * 36) + 4px);
+	left: calc((20px * 6) + 4px);
+}
+
+#FlameThrower {
+	position: absolute;
+	top: calc((20px * 37) + 4px);
+	left: calc((20px * 2) + 4px);
+}
+
+/* ABSU ITEMS 50x12*/
+#HealthNodeFragment1 {
+	position: absolute;
+	top: calc((20px * 56) + 4px);
+	left: calc((20px * 16) + 4px);
+}
+
+#Kilver {
+	position: absolute;
+	top: calc((20px * 58) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#HealthNodeFragment4 {
+	position: absolute;
+	top: calc((20px * 53) + 4px);
+	left: calc((20px * 18) + 4px);
+}
+
+#AddressDisruptor1 {
+	position: absolute;
+	top: calc((20px * 56) + 4px);
+	left: calc((20px * 25) + 4px);
+}
+
+#PowerNodeFragment7 {
+	position: absolute;
+	top: calc((20px * 57) + 4px);
+	left: calc((20px * 12) + 4px);
+}
+
+#HealthNode2 {
+	position: absolute;
+	top: calc((20px * 57) + 4px);
+	left: calc((20px * 27) + 4px);
+}
+
+#SizeNode2 {
+	position: absolute;
+	top: calc((20px * 60) + 4px);
+	left: calc((20px * 27) + 4px);
+}
+
+#Note15 {
+	position: absolute;
+	top: calc((20px * 61) + 4px);
+	left: calc((20px * 25) + 4px);
+}
+
+#Note24 {
+	position: absolute;
+	top: calc((20px * 59) + 4px);
+	left: calc((20px * 30) + 4px);
+}
+
+#HealthNodeFragment3 {
+	position: absolute;
+	top: calc((20px * 60) + 4px);
+	left: calc((20px * 33) + 4px);
+}
+
+#PowerNode2 {
+	position: absolute;
+	top: calc((20px * 62) + 4px);
+	left: calc((20px * 36) + 4px);
+}
+
+#Note14 {
+	position: absolute;
+	top: calc((20px * 60) + 4px);
+	left: calc((20px * 19) + 4px);
+}
+
+#Note7 {
+	position: absolute;
+	top: calc((20px * 64) + 4px);
+	left: calc((20px * 19) + 4px);
+}
+
+#RangeNode1 {
+	position: absolute;
+	top: calc((20px * 61) + 4px);
+	left: calc((20px * 29) + 4px);
+}
+
+#Note16 {
+	position: absolute;
+	top: calc((20px * 59) + 4px);
+	left: calc((20px * 14) + 4px);
+}
+
+#PowerNodeFragment3 {
+	position: absolute;
+	top: calc((20px * 52) + 4px);
+	left: calc((20px * 19) + 4px);
+}
+
+#Note28 {
+	position: absolute;
+	top: calc((20px * 62) + 4px);
+	left: calc((20px * 31) + 4px);
+}
+
+#HealthNodeFragment6 {
+	position: absolute;
+	top: calc((20px * 50) + 4px);
+	left: calc((20px * 29) + 4px);
+}
+
+#PowerNodeFragment5 {
+	position: absolute;
+	top: calc((20px * 51) + 4px);
+	left: calc((20px * 21) + 4px);
+}
+
+#PowerNodeFragment6 {
+	position: absolute;
+	top: calc((20px * 51) + 4px);
+	left: calc((20px * 22) + 4px);
+}
+
+#InertialPulse {
+	position: absolute;
+	top: calc((20px * 58) + 4px);
+	left: calc((20px * 36) + 4px);
+}
+
+#RangeNode4 {
+	position: absolute;
+	top: calc((20px * 61) + 4px);
+	left: calc((20px * 19) + 4px);
+}
+
+#PowerNodeFragment9 {
+	position: absolute;
+	top: calc((20px * 63) + 4px);
+	left: calc((20px * 34) + 4px);
+}
+
+#PowerNodeFragment4 {
+	position: absolute;
+	top: calc((20px * 52) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#DataGrenade {
+	position: absolute;
+	top: calc((20px * 61) + 4px);
+	left: calc((20px * 15) + 4px);
+}
+
+/* ZI ITEMS 50x36*/
+#Note10 {
+	position: absolute;
+	top: calc((20px * 53) + 4px);
+	left: calc((20px * 44) + 4px);
+}
+
+#HealthNodeFragment14 {
+	position: absolute;
+	top: calc((20px * 60) + 4px);
+	left: calc((20px * 42) + 4px);
+}
+
+#GlitchTeleport {
+	position: absolute;
+	top: calc((20px * 51) + 4px);
+	left: calc((20px * 49) + 4px);
+}
+
+#RangeNode2 {
+	position: absolute;
+	top: calc((20px * 61) + 4px);
+	left: calc((20px * 40) + 4px);
+}
+
+#TendrilsTop {
+	position: absolute;
+	top: calc((20px * 59) + 4px);
+	left: calc((20px * 39) + 4px);
+}
+
+#HealthNodeFragment7 {
+	position: absolute;
+	top: calc((20px * 54) + 4px);
+	left: calc((20px * 46) + 4px);
+}
+
+#SizeNode3 {
+	position: absolute;
+	top: calc((20px * 58) + 4px);
+	left: calc((20px * 45) + 4px);
+}
+
+#HealthNode3 {
+	position: absolute;
+	top: calc((20px * 51) + 4px);
+	left: calc((20px * 46) + 4px);
+}
+
+#HealthNodeFragment5 {
+	position: absolute;
+	top: calc((20px * 59) + 4px);
+	left: calc((20px * 47) + 4px);
+}
+
+#PasswordTool {
+	position: absolute;
+	top: calc((20px * 62) + 4px);
+	left: calc((20px * 45) + 4px);
+}
+
+#Note19 {
+	position: absolute;
+	top: calc((20px * 62) + 4px);
+	left: calc((20px * 47) + 4px);
+}
+
+#Note20 {
+	position: absolute;
+	top: calc((20px * 55) + 4px);
+	left: calc((20px * 38) + 4px);
+}
+
+#Voranj {
+	position: absolute;
+	top: calc((20px * 56) + 4px);
+	left: calc((20px * 41) + 4px);
+}
+
+#PowerNodeFragment8 {
+	position: absolute;
+	top: calc((20px * 58) + 4px);
+	left: calc((20px * 37) + 4px);
+}
+
+#PowerNodeFragment1 {
+	position: absolute;
+	top: calc((20px * 50) + 4px);
+	left: calc((20px * 48) + 4px);
+}
+
+/* KUR ITEMS 27x51*/
+#HighJump {
+	position: absolute;
+	top: calc((20px * 50) + 4px);
+	left: calc((20px * 56) + 4px);
+}
+
+#FireWall {
+	position: absolute;
+	top: calc((20px * 48) + 4px);
+	left: calc((20px * 55) + 4px);
+}
+
+#PowerNode3 {
+	position: absolute;
+	top: calc((20px * 47) + 4px);
+	left: calc((20px * 51) + 4px);
+}
+
+#DroneGun {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 57) + 4px);
+}
+
+#HealthNodeFragment10 {
+	position: absolute;
+	top: calc((20px * 47) + 4px);
+	left: calc((20px * 56) + 4px);
+}
+
+#VerticalSpread {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 56) + 4px);
+}
+
+#HealthNodeFragment8 {
+	position: absolute;
+	top: calc((20px * 37) + 4px);
+	left: calc((20px * 54) + 4px);
+}
+
+#AddressDisruptor2 {
+	position: absolute;
+	top: calc((20px * 50) + 4px);
+	left: calc((20px * 52) + 4px);
+}
+
+#HealthNodeFragment9 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 57) + 4px);
+}
+
+#HealthNode4 {
+	position: absolute;
+	top: calc((20px * 37) + 4px);
+	left: calc((20px * 60) + 4px);
+}
+
+#Grapple {
+	position: absolute;
+	top: calc((20px * 33) + 4px);
+	left: calc((20px * 67) + 4px);
+}
+
+#TetheredCharge {
+	position: absolute;
+	top: calc((20px * 50) + 4px);
+	left: calc((20px * 60) + 4px);
+}
+
+#Note13 {
+	position: absolute;
+	top: calc((20px * 34) + 4px);
+	left: calc((20px * 59) + 4px);
+}
+
+#HealthNodeFragment12 {
+	position: absolute;
+	top: calc((20px * 33) + 4px);
+	left: calc((20px * 60) + 4px);
+}
+
+#HealthNodeFragment11 {
+	position: absolute;
+	top: calc((20px * 32) + 4px);
+	left: calc((20px * 67) + 4px);
+}
+
+#PowerNode4 {
+	position: absolute;
+	top: calc((20px * 30) + 4px);
+	left: calc((20px * 67) + 4px);
+}
+
+#Note17 {
+	position: absolute;
+	top: calc((20px * 32) + 4px);
+	left: calc((20px * 55) + 4px);
+}
+
+#PowerNodeFragment14 {
+	position: absolute;
+	top: calc((20px * 31) + 4px);
+	left: calc((20px * 55) + 4px);
+}
+
+#Reflect {
+	position: absolute;
+	top: calc((20px * 31) + 4px);
+	left: calc((20px * 62) + 4px);
+}
+
+#EnhancedLaunch {
+	position: absolute;
+	top: calc((20px * 32) + 4px);
+	left: calc((20px * 61) + 4px);
+}
+
+#Note12 {
+	position: absolute;
+	top: calc((20px * 28) + 4px);
+	left: calc((20px * 58) + 4px);
+}
+
+#IonBeam {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 55) + 4px);
+}
+
+/* INDI ITEMS 45x17*/
+#Note25 {
+	position: absolute;
+	top: calc((20px * 47) + 4px);
+	left: calc((20px * 17) + 4px);
+}
+
+#Note9 {
+	position: absolute;
+	top: calc((20px * 46) + 4px);
+	left: calc((20px * 40) + 4px);
+}
+
+/* SLUG */
+#HealthNodeFragment15 {
+	position: absolute;
+	top: calc((20px * 48) + 4px);
+    left: calc((20px * 45) + 4px);
+}
+
+/* UKKIN-NA ITEMS 23x17*/
+#BlackCoat {
+	position: absolute;
+	top: calc((20px * 35) + 4px);
+	left: calc((20px * 24) + 4px);
+}
+
+#Note22 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 23) + 4px);
+}
+
+#PowerNodeFragment15 {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 24) + 4px);
+}
+
+#PowerNodeFragment13 {
+	position: absolute;
+	top: calc((20px * 33) + 4px);
+	left: calc((20px * 26) + 4px);
+}
+
+#HealthNodeFragment16 {
+	position: absolute;
+	top: calc((20px * 31) + 4px);
+	left: calc((20px * 24) + 4px);
+}
+
+#HealthNode5 {
+	position: absolute;
+	top: calc((20px * 34) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#Note8 {
+	position: absolute;
+	top: calc((20px * 31) + 4px);
+	left: calc((20px * 19) + 4px);
+}
+
+#Note23 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#HealthNodeFragment18 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#TriCone {
+	position: absolute;
+	top: calc((20px * 26) + 4px);
+	left: calc((20px * 26) + 4px);
+}
+
+#PowerNodeFragment10 {
+	position: absolute;
+	top: calc((20px * 43) + 4px);
+	left: calc((20px * 25) + 4px);
+}
+
+/* EDIN ITEMS 33x29*/
+#Note18 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 41) + 4px);
+}
+
+#Note27 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 40) + 4px);
+}
+
+#GlitchBomb {
+	position: absolute;
+	top: calc((20px * 44) + 4px);
+	left: calc((20px * 44) + 4px);
+}
+
+#PowerNode5 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 43) + 4px);
+}
+
+#HealthNode6 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 43) + 4px);
+}
+
+#RangeNode3 {
+	position: absolute;
+	top: calc((20px * 44) + 4px);
+	left: calc((20px * 38) + 4px);
+}
+
+#Shards {
+	position: absolute;
+	top: calc((20px * 44) + 4px);
+	left: calc((20px * 35) + 4px);
+}
+
+#Note5 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 37) + 4px);
+}
+
+#DroneTeleport {
+	position: absolute;
+	top: calc((20px * 35) + 4px);
+	left: calc((20px * 33) + 4px);
+}
+
+#HealthNodeFragment19 {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 40) + 4px);
+}
+
+#DistortionField {
+	position: absolute;
+	top: calc((20px * 37) + 4px);
+	left: calc((20px * 41) + 4px);
+}
+
+#Note4 {
+	position: absolute;
+	top: calc((20px * 37) + 4px);
+	left: calc((20px * 36) + 4px);
+}
+
+#HealthNode7 {
+	position: absolute;
+	top: calc((20px * 39) + 4px);
+	left: calc((20px * 34) + 4px);
+}
+
+#PowerNodeFragment17 {
+	position: absolute;
+	top: calc((20px * 38) + 4px);
+	left: calc((20px * 36) + 4px);
+}
+
+#TendrilsBottom {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 33) + 4px);
+}
+
+#HealthNodeFragment20 {
+	position: absolute;
+	top: calc((20px * 42) + 4px);
+	left: calc((20px * 29) + 4px);
+}
+
+/* E-KUR-MAH ITEMS 24x62*/
+#Note1 {
+	position: absolute;
+	top: calc((20px * 28) + 4px);
+	left: calc((20px * 64) + 4px);
+}
+
+#Note3 {
+	position: absolute;
+	top: calc((20px * 27) + 4px);
+	left: calc((20px * 69) + 4px);
+}
+
+#BreachSuppressor {
+	position: absolute;
+	top: calc((20px * 26) + 4px);
+	left: calc((20px * 68) + 4px);
+}
+
+#PowerNode6 {
+	position: absolute;
+	top: calc((20px * 25) + 4px);
+	left: calc((20px * 64) + 4px);
+}
+
+#HealthNodeFragment17 {
+	position: absolute;
+	top: calc((20px * 41) + 4px);
+	left: calc((20px * 67) + 4px);
+}
+
+#RedCoat {
+	position: absolute;
+	top: calc((20px * 44) + 4px);
+	left: calc((20px * 65) + 4px);
+}
+
+#PowerNodeFragment18 {
+	position: absolute;
+	top: calc((20px * 45) + 4px);
+	left: calc((20px * 66) + 4px);
+}
+
+#Note11 {
+	position: absolute;
+	top: calc((20px * 31) + 4px);
+	left: calc((20px * 69) + 4px);
+}
+
+#Swim {
+	position: absolute;
+	top: calc((20px * 40) + 4px);
+	left: calc((20px * 65) + 4px);
+}
+
+/* MAR-URU 1x19*/
+#HealthNode8 {
+	position: absolute;
+	top: calc((20px * 19) + 4px);
+	left: calc((20px * 21) + 4px);
+}
+
+#PowerNodeFragment11 {
+	position: absolute;
+	top: calc((20px * 19) + 4px);
+	left: calc((20px * 23) + 4px);
+}
+
+#Note6 {
+	position: absolute;
+	top: calc((20px * 20) + 4px);
+	left: calc((20px * 23) + 4px);
+}
+
+#PowerNodeFragment12 {
+	position: absolute;
+	top: calc((20px * 20) + 4px);
+	left: calc((20px * 23) + 4px);
+}
+
+#SizeNode4 {
+	position: absolute;
+	top: calc((20px * 15) + 4px);
+	left: calc((20px * 24) + 4px);
+}
+
+#Note26 {
+	position: absolute;
+	top: calc((20px * 13) + 4px);
+	left: calc((20px * 21) + 4px);
+}
+
+#Scythe {
+	position: absolute;
+	top: calc((20px * 15) + 4px);
+	left: calc((20px * 20) + 4px);
+}
+
+#Note21 {
+	position: absolute;
+	top: calc((20px * 8) + 4px);
+	left: calc((20px * 22) + 4px);
+}
